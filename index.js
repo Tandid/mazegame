@@ -195,19 +195,19 @@ document.addEventListener("keydown", (event) => {
   const { x, y } = ball.velocity;
 
   if (event.key === "ArrowUp") {
-    Body.setVelocity(ball, { x, y: y - 5 });
+    Body.setVelocity(ball, { x, y: y - 10 });
   }
 
   if (event.key === "ArrowRight") {
-    Body.setVelocity(ball, { x: x + 5, y });
+    Body.setVelocity(ball, { x: x + 10, y });
   }
 
   if (event.key === "ArrowDown") {
-    Body.setVelocity(ball, { x, y: y + 5 });
+    Body.setVelocity(ball, { x, y: y + 10 });
   }
 
   if (event.key === "ArrowLeft") {
-    Body.setVelocity(ball, { x: x - 5, y });
+    Body.setVelocity(ball, { x: x - 10, y });
   }
 });
 
